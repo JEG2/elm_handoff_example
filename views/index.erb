@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Elm Bridge</title>
+
+    <script src="javascripts/ElmBridge.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      Elm.fullscreen(Elm.ElmBridge, {data: <%= data.to_json %>});
+    </script>
+  </body>
+</html>
